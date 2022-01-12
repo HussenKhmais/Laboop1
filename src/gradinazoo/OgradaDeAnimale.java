@@ -16,7 +16,7 @@ public class OgradaDeAnimale {
         for (int i = 0; i < animaleDinCurte.length; i++) {
 
             System.out.println( animaleDinCurte[i] instanceof Vaca);
-              //  Pisica p = (Pisica)animaleDinCurte[i];
+                Pisica p = (Pisica)animaleDinCurte[i];
 
           //animaleDinCurte[i].noise();
         }
@@ -25,7 +25,7 @@ public class OgradaDeAnimale {
 
 
     public static void main(String[] args) {
-        OgradaDeAnimale ogd =null;
+        OgradaDeAnimale ogd =new OgradaDeAnimale();
         ogd.cumparAnimale();
 
 
